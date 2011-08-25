@@ -1,0 +1,86 @@
+html, td, div {
+  font-family: sans-serif, serif;
+  font-size: 10pt;
+}
+body {
+  background: #9e9e9e url(bg1.png) repeat top left;
+  margin: 12px 4px 12px 4px;
+  padding: 0px;
+}
+a {
+  color: rgb(0,0,255);
+  text-decoration: underline;
+}
+a:hover {
+  color: rgb(255,0,0);
+  text-decoration: underline;
+}
+td#topbar a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+td#topbar a:hover {text-decoration: underline}
+td#topbar {
+  background: url(top.png) repeat-x;
+  height: 25px;
+  color: rgb(255,255,255);
+  text-align: right;
+  padding-left: 3px;
+  padding-right: 9px;
+}
+td#bottombar a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+td#bottombar a:hover {text-decoration: underline}
+td#bottombar {
+  background: url(bottom.png) repeat-x;
+  height: 25px;
+  color: rgb(255,255,255);
+  text-align: left;
+  padding-left: 9px;
+  padding-right: 3px;
+}
+td#content {
+  background-color: white;
+  color: black;
+  padding: 3px 3px 16px 3px;
+  text-indent: 16px;
+  text-align: justify;
+}
+td#copyright {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  font-size: 8pt;
+}
+
+#container-table {
+  width: 70%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#triotech-logo {
+  width: 272px;
+  height: 40px;
+  border-width: 0px;
+  padding: 8px 8px 8px 16px;
+}
+#triotech-logo-keyboard {
+  background: white url(keyboard.png) no-repeat center right;
+}
+
+#sepbar {
+  background: white url(sep.png) repeat-x;
+  height: 4px;
+}
+
+.bigbold {
+  font-weight: bold;
+  font-size: 12pt;
+}
+#triotech-highlighted {
+  color: maroon;
+  font-weight: bold;
+}
